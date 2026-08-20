@@ -1,6 +1,6 @@
 *Este repositorio es una plantilla para ser usada para documentar proyectos STEAM.*
 
-# [Nombre Proyecto STEAM]
+# Trash Masters
 
 ## Descripción
 - [Agregar un párrafo con descripción del proyecto STEAM]
@@ -8,15 +8,13 @@
 - [Opcional: agregar el nombre del equipo]
 
 *Nota:* Este proyecto se realiza durante el curso **Laboratorio STEAM+** de la
-tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
+tecnicatura **Redes y Software** del [**Instituto Tecnico Informatico**] de **ITI**.
 
 ## Integrantes
-- [Nombre integrante 1]
-- [Nombre integrante 2]
-- [Nombre integrante 3]
-- [Nombre integrante 4]
-- [Nombre integrante 5]
-- [Opcional: agregar fotos o avatar para cada integrante]
+- Joaquin Garcia
+- Federico Bardecio
+- Pablo Puerto
+- Luis Guarguana
 
 ## Documentación
 - [Informe de Avance - Agosto 202x](documentacion/avance1.md)
