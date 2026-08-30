@@ -1,33 +1,32 @@
-# Informe de Avance 1: Agosto 202x
+# Informe de Avance 1: Agosto 2026
 
-## [x]/8/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
+## 6/8/2026
+- Analisis de ideas de proyecto.
 - [Incluir:]
   - [Tareas completadas]
   - [Problemas encontrados y soluciones/alternativas propuestas]
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
 
-## [x]/8/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
+## 13/8/2026
+- Definicion de proyecto
 - [Incluir:]
   - [Tareas completadas]
   - [Problemas encontrados y soluciones/alternativas propuestas]
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
 
-## [x]/8/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
+## 20/8/2026
+- Realizamos pruebas en Tinkercad mintras conseguimos lo componentes faltantes
 - [Incluir:]
   - [Tareas completadas]
   - [Problemas encontrados y soluciones/alternativas propuestas]
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
 
-## [x]/8/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
+## 27/8/2026
+- Realizamos las primeras pruebas funcionales del proyecto a pequeña escala.
+  - Compramos los insumos faltantes para realizar las primeras preubas de con componentes fisicos.
   - [Problemas encontrados y soluciones/alternativas propuestas]
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
