@@ -1,19 +1,24 @@
 # Documentación Técnica
 
-*Fecha: XX de noviembre de 202x*
+*Fecha: XX de noviembre de 2026*
 
-Este documento contiene la documentación técnica para el proyecto STEAM del curso **Laboratorio STEAM+** de la tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU** año 202x.
+Este documento contiene la documentación técnica para el proyecto STEAM del curso **Laboratorio STEAM+** de la tecnicatura **Redes y Software** del **Instituto Tecnologico de Infórmatica** de **UTU** año 2026.
 
-# Proyecto: [Nombre del proyecto]
+# Proyecto: Contenedor de basura automatico
 
 ## 1. Integrantes
-- [Nombre integrante 1]
-- [Nombre integrante 2]
-- [Nombre integrante 3]
-- [Nombre integrante 4]
-- [Nombre integrante 5]
+- Joaquin Garcia
+- Federico Bardecio
+- Pablo Puerto
+- Luis Guarguana
 
 ## 2. Descripción
+El proyecto busca desarrollar un contenedor de basura inteligente diseñado para optimizar la gestión de residuos y promover un uso más eficiente e higiénico. El sistema central es gestionado por una placa programable MicroBit, la cual procesa las señales de los sensores y coordina las respuestas mecánicas en tiempo real.
+
+Para garantizar una experiencia sin contacto, el contenedor cuenta con un sensor de proximidad que detecta al usuario, activando un servomotor para abrir la tapa de forma automática. Una vez que la persona sale del campo de detección, el sistema espera un lapso de 3 segundos antes de volver a cerrar la tapa de forma segura.
+
+Además, el dispositivo incorpora un sensor de obstáculos interno que monitorea la capacidad del recipiente. Si se detecta que el contenedor está lleno, la MicroBit envía la orden de bloquear el servomotor, impidiendo que la tapa se vuelva a abrir para evitar el desborde y la sobrecarga de residuos.
+
 - [Realizar una descripción general del proyecto en dos o tres párrafos]
 - [Formular el problema que se busca resolver y describir la solución]
 
@@ -38,7 +43,7 @@ Este documento contiene la documentación técnica para el proyecto STEAM del cu
   - [Sugerencia: almacenar el código en diferentes etapas para mostrar su evolución]
 
 ## 7. Referencias y recursos
-[Listar referencias, fuentes, recursos, etc usados durante el desarrollo del proyecto]
+- [Documentacion sobre pines del microBit](https://makecode.microbit.org/device/pins)
 
 ## 8. Otros
 [Incluir cualquier otra información que consideren relevante para el proyecto]
