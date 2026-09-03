@@ -18,6 +18,7 @@
   * Sensor de obstáculos.  
 * Definimos el Nombre del proyecto: TrashMaster  
 * Creamos y nos conectamos todos al repositorio de Git: [https://github.com/JoakoGC-ITI/proyecto-steam](https://github.com/JoakoGC-ITI/proyecto-steam) 
+<img src="imagenes/listado_materiales.jpg" width="400">
 
 # 20/8/2026
 
@@ -26,6 +27,7 @@
 * Realizamos pruebas en Tinkercad mientras conseguimos los componentes faltantes.  
 * Identificamos que necesitamos comprar un Servomotor, un sensor ultrasónico y cables.  
 * Buscamos donde comprar los insumos faltantes.
+<img src="imagenes/tinkercad1.jpg" width="800">
 
 # 27/8/2026
 
@@ -37,7 +39,7 @@
   * Sensor ultrasónico 5VDC HC-SR04  
 * Realizamos las primeras pruebas funcionales del proyecto a pequeña escala.
 
-![][image1]![][image2]
+<img src="imagenes/listado_materiales.jpg" width="400"> <img src="imagenes/prueba_con_materiales.jpg" width="400">
 
 **Video demo:** [https://youtube.com/shorts/BcGTUgdnKSw?](https://youtube.com/shorts/BcGTUgdnKSw)
 
