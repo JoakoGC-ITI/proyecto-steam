@@ -2,7 +2,7 @@
 
 # Trash Masters
 
-<img title="" src="file:///C:/Users/Clases/Documents/WorkSpace/UTU-2026/Laboratorio_stem/proyecto-steam/documentacion/imagenes/TrashV3h.jpg" alt="" width="400" data-align="center" />
+<img title="" src="documentacion/imagenes/TrashV3h.jpg" alt="" width="400" data-align="center" />
 
 ## Descripcion
 
