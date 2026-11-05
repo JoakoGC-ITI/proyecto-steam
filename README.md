@@ -1,5 +1,3 @@
-*Este repositorio es una plantilla para ser usada para documentar proyectos STEAM.*
-
 # Trash Masters
 
 <img title="" src="documentacion/imagenes/TrashV3h.jpg" alt="" width="400" data-align="center" />
@@ -29,12 +27,11 @@ tecnicatura **Redes y Software** del [**Instituto Tecnico Informatico**] de **IT
 
 ## Código fuente
 
-- [Agregar enlace a la carpeta de GitHub donde se haya guardado el código fuente]
-- [Ejemplo: `codigo/programa1.py`]
+- [Ejemplo: `codigo/microbit-TrashMastersV4.hex`]
 
 ## Presentación Final
 
-- [Agregar enlace a la carpeta de GitHub donde se hayan guardado diapositivas, videos, etc usados en la presentación final]
-- [Ejemplo:]
 - `presentacion/presentacion-final.pptx`
-- `presentacion/video.mov`
+- [`Video avance 1`](https://youtube.com/shorts/BcGTUgdnKSw?feature=share)
+- [`Video avance 2`](https://youtube.com/shorts/w3Xi0eUzK4U?feature=share)
+- [`Video avance 3`](https://youtube.com/shorts/QUtSmvSVxcA?feature=share)
