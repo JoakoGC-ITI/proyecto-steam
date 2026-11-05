@@ -27,11 +27,11 @@ tecnicatura **Redes y Software** del [**Instituto Tecnico Informatico**] de **IT
 
 ## Código fuente
 
-- [Ejemplo: `codigo/microbit-TrashMastersV4.hex`]
+- [`codigo/microbit-TrashMastersV4.py`](codigo/microbit-TrashMastersV4.py)
 
 ## Presentación Final
 
-- `presentacion/presentacion-final.pptx`
+- [`presentacion/presentacion-final.pptx`](presentacion/presentacion-final.pptx)
 - [`Video avance 1`](https://youtube.com/shorts/BcGTUgdnKSw?feature=share)
 - [`Video avance 2`](https://youtube.com/shorts/w3Xi0eUzK4U?feature=share)
 - [`Video avance 3`](https://youtube.com/shorts/QUtSmvSVxcA?feature=share)
