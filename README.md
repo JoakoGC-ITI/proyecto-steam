@@ -1,6 +1,8 @@
 # Trash Masters
 
-<img title="" src="documentacion/imagenes/TrashV3h.jpg" alt="" width="400" data-align="center" />
+<p align="center" >
+  <img title="" src="documentacion/imagenes/TrashV3h.jpg" alt="" width="400"/>
+</p>
 
 ## Descripcion
 
