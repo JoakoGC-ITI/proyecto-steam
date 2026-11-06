@@ -108,7 +108,7 @@ flowchart LR
 
 Agregar la captura del diagrama de Tinkercad en la carpeta `imagenes/`:
 
-![Diagrama de conexiones en Tinkercad](imagenes/tinkercad1.png)
+![Diagrama de conexiones en Tinkercad](imagenes/tinkercad1.jpg)
 
 ## 6. Diseño Software
 
