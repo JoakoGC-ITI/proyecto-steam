@@ -21,7 +21,7 @@ Además, el dispositivo incorpora un sensor de obstáculos interno que monitorea
 
 **Problema que se busca resolver:** los contenedores de basura tradicionales obligan a tocar la tapa o un pedal, lo que genera contacto con superficies sucias, y no avisan cuando están llenos, por lo que se desbordan con facilidad.
 
-**Solución:** un contenedor que abre solo al detectar una mano cercana, se cierra automáticamente a los pocos segundos y avisa (con una cara en la pantalla de la micro:bit) cuando está lleno, bloqueando la tapa hasta que sea vaciado.
+**Solución:** un contenedor que se abre solo al detectar una mano cercana, se cierra automáticamente a los pocos segundos y avisa (con una cara en la pantalla de la micro:bit) cuando está lleno, bloqueando la tapa hasta que sea vaciado.
 
 ## 3. Materiales
 
@@ -30,7 +30,7 @@ Además, el dispositivo incorpora un sensor de obstáculos interno que monitorea
 - Aluminio
 - Espuma plast
 - Alambre
-- Palitos de altura o palitos de brochette
+- Palitos de brochette
 - Cinta adhesiva
 - Pega blanca
 
@@ -46,7 +46,7 @@ Además, el dispositivo incorpora un sensor de obstáculos interno que monitorea
 ## 4. Diseño Mecánico
 
 ### Funcionamiento mecánico
-La estructura imita un tacho de basura clásico. La tapa es una pieza de espuma plast que gira sobre un lado de la caja. Un servomotor, fijado cerca de la tapa, mueve un alambre que está unido a ella: cuando el servo gira hacia la posición de apertura el alambre levanta la tapa, y cuando vuelve a la posición inicial la baja y la cierra.
+La estructura imita un tacho de basura clásico. La tapa es una pieza de espuma plast que gira sobre un lado de la caja. Un servomotor, fijado cerca de la tapa, mueve un sistema que está unido a ella: cuando el servo gira hacia la posición de apertura el sistema levanta la tapa, y cuando vuelve a la posición inicial la baja y la cierra.
 
 ### Armado paso a paso
 
@@ -57,21 +57,23 @@ Tomamos una caja de hojas A4 para recrear la forma de un depósito de basura.
 Cortamos la espuma plast del tamaño de la caja, de manera que la tapa coincida con la abertura y pueda abrir y cerrar sin trabarse.
 
 **Paso 3 – Forrar con aluminio.**
-Con el aluminio medimos y cortamos según las medidas de la caja. En este caso cortamos cuatro lados y dos perfiles, uno para la parte superior y otro para la inferior.
+Con el papel aluminio medimos y cortamos según las medidas de la caja. 
 
 **Paso 4 – Pegar el revestimiento.**
 Presentamos cada lado sobre la caja y, con la cinta adhesiva, vamos adhiriendo lado a lado, cubriendo cada pedazo sobre el otro. Esto permite cubrir todo el depósito y darle una apariencia más familiar, que simula los botes de basura clásicos.
 
 **Paso 5 – Armar el mecanismo de la tapa.**
-Usamos el alambre para generar el movimiento de abrir y cerrar la tapa con el servomotor: un extremo se une al servo y el otro a la tapa. Los palitos de brochette sirven de apoyo y refuerzo, y la pega blanca fija las piezas de espuma plast y cartón.
+Usamos el palo y el alambre para generar el movimiento de abrir y cerrar la tapa con el servomotor: un extremo se une al servo y el otro a la tapa. El palito de brochette sirve de apoyo y equilibrio a la pieza de espuma plast.
 
 **Paso 6 – Ubicar los sensores y la electrónica.**
 El sensor de proximidad se coloca en el frente, por fuera, apuntando hacia donde el usuario acerca la mano. El sensor de obstáculos se coloca en el interior, orientado hacia el espacio donde se acumula la basura. La micro:bit con su tarjeta expansora y la batería portátil quedan fijadas a la caja.
 
 ### Fotografías
-![Estructura de la caja forrada en aluminio](imagenes/TrashV3f.jpg)
-![Mecanismo de la tapa con servomotor y alambre](imagenes/TrashV3a.jpg)
-![Proyecto terminado](imagenes/TrashV3h.jpg)
+<img src="imagenes/prueba_con_materiales.jpg" width="300">
+<img src="imagenes/TrashV3f.jpg" width="300">
+<img src="imagenes/TrashV3a.jpg" width="300">
+<img src="imagenes/TrashV3h.jpg" width="300">
+
 
 ## 5. Diseño Electrónico
 
@@ -106,7 +108,6 @@ flowchart LR
     E -- P8 --> I[Sensor de obstáculos]
 ```
 
-Agregar la captura del diagrama de Tinkercad en la carpeta `imagenes/`:
 
 ![Diagrama de conexiones en Tinkercad](imagenes/tinkercad1.jpg)
 
@@ -126,7 +127,7 @@ El programa se desarrolló en **MakeCode (Python)** y corre en un ciclo infinito
 - **Función `mover_tapa(a)`:** limita el ángulo al rango permitido y lo envía al servomotor con `pins.servo_write_pin`.
 - **Función `abrir_y_cerrar()`:** abre la tapa, espera 3 segundos y la cierra.
 - **Lectura del sensor de llenado:** `pins.digital_read_pin(DigitalPin.P8)`. El módulo infrarrojo entrega nivel bajo (0) cuando detecta un obstáculo.
-- **Caras en la pantalla:** muestran solo la boca (sin ojos) y están invertidas, porque a la micro:bit se le pegaron ojos físicos.
+- **Caras en la pantalla:** muestran solo la boca (sin ojos) y están invertidas, porque a usamos el sensor de proximidad como ojos.
 
 ### Código fuente
 
@@ -205,8 +206,6 @@ basic.forever(on_forever)
 
 ## 7. Referencias y recursos
 - [Documentación sobre pines del micro:bit](https://makecode.microbit.org/device/pins)
-- [Referencia de servomotores en MakeCode](https://makecode.microbit.org/reference/pins/servo-write-pin)
-- [Instructables – inspiración para documentar el armado](https://www.instructables.com)
 - [Repositorio del proyecto](https://github.com/JoakoGC-ITI/proyecto-steam/)
 
 ## 8. Otros
